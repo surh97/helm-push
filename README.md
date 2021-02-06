@@ -1,17 +1,17 @@
 # helm push plugin
-<img align="right" src="https://github.com/helm/chartmuseum/raw/main/logo.png">
+<img align="right" src="https://github.com.cnpmjs.org/helm/chartmuseum/raw/main/logo.png">
 
-[![GitHub Actions status](https://github.com/chartmuseum/helm-push/workflows/build/badge.svg)](https://github.com/chartmuseum/helm-push/actions?query=workflow%3Abuild)
+[![GitHub Actions status](https://github.com.cnpmjs.org/chartmuseum/helm-push/workflows/build/badge.svg)](https://github.com.cnpmjs.org/chartmuseum/helm-push/actions?query=workflow%3Abuild)
 
-Helm plugin to push chart package to [ChartMuseum](https://github.com/helm/chartmuseum)
+Helm plugin to push chart package to [ChartMuseum](https://github.com.cnpmjs.org/helm/chartmuseum)
 
 ## Install
 Based on the version in `plugin.yaml`, release binary will be downloaded from GitHub:
 
 ```
-$ helm plugin install https://github.com/chartmuseum/helm-push.git
+$ helm plugin install https://github.com.cnpmjs.org/chartmuseum/helm-push.git
 Downloading and installing helm-push v0.9.0 ...
-https://github.com/chartmuseum/helm-push/releases/download/v0.9.0/helm-push_0.9.0_darwin_amd64.tar.gz
+https://github.com.cnpmjs.org/chartmuseum/helm-push/releases/download/v0.9.0/helm-push_0.9.0_darwin_amd64.tar.gz
 Installed plugin: push
 ```
 
@@ -115,7 +115,7 @@ With this setup, you can enable people to use your repo for installing charts et
 
 ### Token
 
-*ChartMuseum token-auth is currently in progress. Pleasee see [auth-server-example](https://github.com/chartmuseum/auth-server-example) for more info.*
+*ChartMuseum token-auth is currently in progress. Pleasee see [auth-server-example](https://github.com.cnpmjs.org/chartmuseum/auth-server-example) for more info.*
 
 Although ChartMuseum server does not define or accept a token format (yet), if you are running it behind a proxy that accepts access tokens, you can provide the following env var:
 ```
@@ -154,7 +154,7 @@ current-context: default
 
 ### TLS Client Cert Auth
 
-ChartMuseum server does not yet have options to setup TLS client cert authentication (please see [chartmuseum#79](https://github.com/helm/chartmuseum/issues/79)).
+ChartMuseum server does not yet have options to setup TLS client cert authentication (please see [chartmuseum#79](https://github.com.cnpmjs.org/helm/chartmuseum/issues/79)).
 
 If you are running ChartMuseum behind a frontend that does, the following options are available:
 

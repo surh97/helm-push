@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/ghodss/yaml"
+	"github.com.cnpmjs.org/ghodss/yaml"
 	"helm.sh/helm/v3/pkg/repo"
 )
 
