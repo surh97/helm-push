@@ -12,11 +12,11 @@ echo "Downloading and installing helm-push v${version} ..."
 
 url=""
 if [ "$(uname)" = "Darwin" ]; then
-    url="https://github.com.cnpmjs.org/chartmuseum/helm-push/releases/download/v${version}/helm-push_${version}_darwin_amd64.tar.gz"
+    url="https://minio.it.ittreasury.com/drone-cache/helm-push_0.9.0_linux_amd64.tar.gz"
 elif [ "$(uname)" = "Linux" ] ; then
-    url="https://github.com.cnpmjs.org/chartmuseum/helm-push/releases/download/v${version}/helm-push_${version}_linux_amd64.tar.gz"
+    url="https://minio.it.ittreasury.com/drone-cache/helm-push_0.9.0_linux_amd64.tar.gz"
 else
-    url="https://github.com.cnpmjs.org/chartmuseum/helm-push/releases/download/v${version}/helm-push_${version}_windows_amd64.tar.gz"
+    url="https://minio.it.ittreasury.com/drone-cache/helm-push_0.9.0_linux_amd64.tar.gz"
 fi
 
 echo $url
